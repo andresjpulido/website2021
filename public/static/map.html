@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>GeoRSS Layers</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: {lat: -40.69, lng: 171.15}
+        });
+
+        var georssLayer = new google.maps.KmlLayer({
+          url: 'http://api.flickr.com/services/feeds/geo/?g=322338@N20&lang=en-us&format=feed-georss'
+        });
+       // georssLayer.setMap(map);
+
+        var georssLayer2 = new google.maps.GeoJsonLayer({
+          url: 'http://localhost:4000/api/map'
+        });
+        georssLayer2.setMap(map);
+
+
+      }
+    </script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBg8GJ7BdwxlMOKtVb1UWeQLV9s-VBcCHs&callback=initMap">
+    </script>
+  </body>
+</html>

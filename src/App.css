@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'veranabold2';
+  src: url("../assets/fonts/verana-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'veranabold';
+  src: url("../assets/fonts/verana-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+html,
+body {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  color: #CCC;
+  margin: 0px;
+  box-sizing: border-box; }
+
+ol,
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: #CCC;
+  cursor: pointer; }
+
+h2 {
+  font-family: 'veranabold2';
+  font-size: 3.2rem;
+  font-weight: bolder; }
+
+h2.light {
+  color: #FFF; }
+
+p.light {
+  color: #CCC; }
+
+h2.dark {
+  color: #333; }
+
+p.dark {
+  color: black; }
+
+h3 {
+  line-height: 3rem; }
+
+span.dark {
+  color: black;
+  margin-left: 1rem; }
+
+input,
+textarea {
+  color: black;
+  border: 1px solid #3579E9;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 1rem; }
+
+div#colDer {
+  background-color: #CCC;
+  margin-left: 50px;
+  right: 0;
+  float: right;
+  padding: 1rem;
+  margin-top: 50px; }
+
+div#colIzq {
+  width: 50px;
+  background-color: #333;
+  margin-top: 50px;
+  float: left;
+  position: fixed;
+  min-height: 100%;
+  height: 100%; }
+
+article {
+  z-index: -1;
+  margin: 0px;
+  padding: 0px; }
+
+section {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  align-items: center; }
+
+.anchor:before {
+  display: block;
+  content: ' ';
+  visibility: hidden; }
+
+li.contact-networks {
+  display: block;
+  margin: 0 0 2em 1em; }
+
+li.main-networks {
+  display: inline-block;
+  margin: 0 0 1em 1em; }
+
+ul.networks {
+  display: block;
+  margin-top: 2rem; }
+
+.icon-active {
+  color: #3579E9; }
+
+.icons {
+  float: left; }
+
+#icon {
+  width: 35px;
+  border-radius: 100%;
+  margin-top: 12px; }
+
+.f {
+  width: 100%; }
+
+.button {
+  background-color: #3579E9;
+  border-radius: 0.5rem;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 1rem;
+  border-color: #FFF; }
+
+input.button {
+  width: 25%; }
+
+a.active {
+  color: #3579E9; }
+
+a.inactive {
+  color: #FFF; }
+
+.section-header {
+  display: flex;
+  justify-content: space-between; }
+
+.section-logo {
+  color: #CCC;
+  font-size: 4rem;
+  margin: auto;
+  margin-right: 3rem; }
+
+.page-container {
+  margin-left: 9rem;
+  margin-right: 9rem; }
+
+.row {
+  display: inline-block;
+  width: 100%; }
+
+.col-100 {
+  float: left;
+  width: 100%; }
+
+.col-50 {
+  float: left;
+  width: 50%;
+  min-width: 300px; }
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; }
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+/*************************************************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem; }
+  section {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem; }
+  .section-logo {
+    font-size: 3rem;
+    margin-right: 1.5rem; }
+  .anchor:before {
+    height: 60px; }
+  .padre {
+    height: 535px; }
+  .page-container {
+    margin-left: 0rem;
+    margin-right: 0rem; } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  section {
+    padding-left: 3rem;
+    padding-right: 3rem; }
+  .anchor:before {
+    height: 60px; }
+  .page-container {
+    margin-left: 0rem;
+    margin-right: 0rem; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .anchor:before {
+    height: 60px; }
+  article {
+    margin-top: 0;
+    margin-left: 60px;
+    right: 0; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .anchor:before {
+    height: 0px; }
+  .page-container {
+    margin-left: 11rem;
+    margin-right: 11rem; } }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  article {
+    margin-left: 0px; }
+  section {
+    padding-top: 1rem; }
+  .anchor:before {
+    height: 60px; } }

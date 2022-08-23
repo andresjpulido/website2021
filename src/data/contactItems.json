@@ -1,0 +1,39 @@
+[
+
+    {
+        "id": 1,
+        "isBrand": true,
+        "label": "Github",
+        "text": "Github",
+        "iconFamily": "fab",
+        "icon": "github",
+        "url": "https://github.com/andresjpulido"
+    },
+    {
+        "id": 2,
+        "isBrand": true,
+        "label": "medium",
+        "text": "Medium",
+        "iconFamily": "fab",
+        "icon": "medium",
+        "url": "https://medium.com/@andresjpulido"
+    },
+    {
+        "id": 3,
+        "isBrand": true,
+        "label": "Mail",
+        "text": "Mail",
+        "iconFamily": "far",
+        "icon": "envelope",
+        "url": "mailto:andresjpulido@gmail.com"
+    },
+    {
+        "id": 4,
+        "isBrand": true,
+        "label": "linkedin",
+        "text": "LinkedIn",
+        "iconFamily": "fab",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/andresjpulido/"
+    }
+]

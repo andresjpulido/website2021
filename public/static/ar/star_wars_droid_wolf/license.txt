@@ -1,0 +1,11 @@
+Model Information:
+* title:	Star Wars Droid Wolf
+* source:	https://sketchfab.com/3d-models/star-wars-droid-wolf-86b72f64925e4b73a6ff8ff893e70a1d
+* author:	disowered (https://sketchfab.com/disowered)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Star Wars Droid Wolf" (https://sketchfab.com/3d-models/star-wars-droid-wolf-86b72f64925e4b73a6ff8ff893e70a1d) by disowered (https://sketchfab.com/disowered) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

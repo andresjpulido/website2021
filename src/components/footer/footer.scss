@@ -1,0 +1,45 @@
+@import '../../styles/variables.scss';
+
+footer {
+    background-color: $dark;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer-copy {
+    color: $secundary;
+    font-size: 0.7rem;
+    padding: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media only screen and (min-width: 176px) and (max-width: 600px) {
+    .footer-sentence-icon {
+        display: none;
+    }
+    div.child:first-child {
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+}

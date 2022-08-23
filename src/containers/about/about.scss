@@ -1,0 +1,88 @@
+@import "../../styles/variables.scss";
+
+section#about {
+	background-color: $superlight;
+	color: $secundary;
+}
+
+section#about > div > p {
+	color: $secundary;
+}
+
+section#about > div > p:first-of-type {
+	font-weight: bold;
+	font-family: arial;
+	color: $secundary;
+	line-height: 2rem;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.solid-left-side {
+	padding-top: 1rem;
+	line-height: 2rem;
+	width: 80%;
+}
+
+.about-columns {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-columns-title {
+	font-weight: bold;
+	width: 100%;
+}
+
+.about-columns-para {
+	line-height: 2rem;
+	width: 100%;
+
+	p {
+		border-left: $primary 0rem solid;
+		padding-left: 0rem;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+	.about-columns-title {
+		width: 20%;
+	}
+
+	.about-columns-para {
+		width: 80%;
+		p {
+			border-left: $primary 0.5rem solid;
+			padding-left: 1rem;
+		}
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+}

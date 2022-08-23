@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "title": "Shop",
+        "description": "Web application that manages the inventory, the creation of purchase orders, the registration of hours you work and the creation of the weekly payslip ",
+        "tags": [
+            "Javascript",
+            "PostgreSQl",
+            "Nodejs",
+            "HTML",
+            "ReactJS",
+            "Boostrap"
+        ],
+        "url": "https://github.com/andresjpulido/shop",
+        "image": "shop.png"
+    },
+    {
+        "id": 2,
+        "title": "Pocket's astronomy",
+        "description": "This application shows some information available in the public API of NASA. ",
+        "tags": [
+            "ReactJS",
+            "Nasa Api",
+            "CC3",
+            "HTML"
+        ],
+        "url": "https://github.com/andresjpulido/nasa",
+        "image": "pocket-astronomy.jpg",
+        "website": "https://nasa.andresjpulido.com/"
+    },
+    {
+        "id": 3,
+        "title": "Recipes",
+        "description": "Web application that works as a repository of food recipes where the user searches, associates a category and creates their own recipes. ",
+        "tags": [
+            "Javascript",
+            "Firebase",
+            "HTML",
+            "ReactJS"
+        ],
+        "url": "https://github.com/andresjpulido/recipes",
+        "image": "recipes.png"
+    },
+    {
+        "id": 4,
+        "title": "Puzzle",
+        "description": "This puzzle is a board game whose objective is to order a set of numbers correctly moving the tokens of it.",
+        "tags": [
+            "typescript",
+            "HTML",
+            "ReactJS"
+        ],
+        "url": "https://github.com/andresjpulido/puzzle",
+        "image": "puzzle.png"
+    },
+    {
+        "id": 5,
+        "title": "Website 2020",
+        "description": "personal website 2020.",
+        "tags": [
+            "HTML",
+            "ReactJS"
+        ],
+        "url": "http://website2020.andresjpulido.com/",
+        "image": "website2020.png"
+    }
+]

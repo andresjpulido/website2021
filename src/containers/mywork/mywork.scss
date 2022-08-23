@@ -1,0 +1,188 @@
+@import "../../styles/variables.scss";
+
+section#mywork {
+	background-color: $superlight;
+}
+
+section#mywork > div > h2 {
+	color: $light;
+}
+
+.project-container {
+	display: block;
+}
+
+.project {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.project-preview {
+	background-size: cover;
+	padding-top: 2rem;
+	text-align: center;
+	width: 100%;
+}
+
+.project-preview img {
+	width: 50%;
+	box-shadow: 5px 10px 18px #888888;
+}
+
+.project-description {
+	padding-left: 1rem;
+	width: 100%;
+}
+
+.project-description h1 {
+	color: $primary;
+	font-size: 1.5rem;
+}
+
+.project-description p {
+	color: $secundary;
+	line-height: 2rem;
+}
+
+.project-description a {
+	color: $primary;
+}
+
+.project-tech {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.project-tech-item {
+	color: $tertiary;
+	background-color: $secundary;
+	font-size: 0.7rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.project-card {
+	background-image: "../../assets/images/projects/recipes.png";
+	background-size: cover;
+	background-position-y: 1.5rem;
+	height: 20rem;
+	width: 250px;
+	border: 1px solid $secundary;
+	vertical-align: top;
+	margin: 1rem;
+}
+
+div.project-card h1 {
+	font-size: 1.5rem;
+	font-family: "veranabold2";
+	text-align: center;
+	background-color: black;
+	color: #eee;
+	margin: 0ch;
+	padding: 1rem;
+	vertical-align: middle;
+}
+
+div.project-card p {
+	display: none;
+}
+
+div.project-card a {
+	display: none;
+	font-size: 0.7rem;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: end;
+}
+
+.project-card:hover {
+	background-color: black;
+	background-size: 0%;
+	transition: 0.5s;
+	border: 1px solid $primary;
+}
+
+.project-card:hover h1 {
+	color: $primary;
+}
+
+.project-card:hover p {
+	color: $secundary;
+	background-size: 0%;
+	display: block;
+	font-size: 1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.project-card:hover a {
+	color: $primary;
+	background-size: 0%;
+	display: block;
+	margin-right: 1rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.project-preview {
+		width: 45%;
+	}
+
+	.project-description {
+		padding-left: 1rem;
+		width: 45%;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+	.project-preview {
+		width: 45%;
+	}
+
+	.project-description {
+		padding-left: 1rem;
+		width: 45%;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+	.project-preview {
+		width: 45%;
+	}
+
+	.project-description {
+		padding-left: 1rem;
+		width: 45%;
+	}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+}

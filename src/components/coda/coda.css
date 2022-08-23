@@ -1,0 +1,17 @@
+.dark-page {
+  background-color: black;
+  color: #CCC; }
+
+div.footer-sentence {
+  text-align: center;
+  font-size: 2rem;
+  color: #FFF;
+  justify-content: space-between;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding-bottom: 3rem; }
+
+div.footer-line {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  border-top: 0.1px solid #333; }

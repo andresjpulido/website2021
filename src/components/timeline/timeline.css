@@ -1,0 +1,119 @@
+.swiper {
+  color: #CCC;
+  width: 30%;
+  text-align: center;
+  border-left-style: solid;
+  background-color: #333; }
+
+.swiper > ul {
+  padding-inline-start: 0px; }
+
+.swiper > ul > li {
+  margin-left: 0px;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.swiper .selected {
+  color: #3579E9;
+  background-color: #333;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold; }
+
+.swiper .noselected {
+  background-color: #333;
+  border: none;
+  color: #CCC;
+  font-size: 1rem; }
+
+.carousel {
+  width: 70%;
+  align-items: stretch; }
+
+.carousel .page {
+  display: flex;
+  background-color: #333;
+  color: #ccc; }
+
+.carousel .page .tech {
+  color: #3579E9;
+  align-items: flex-end;
+  align-content: flex-end; }
+
+.carousel .page .toolsets {
+  font-size: .8rem; }
+
+.carousel .page > li > h1 {
+  color: #FFF; }
+
+.carousel .page > span {
+  display: flex;
+  margin-left: 1rem; }
+
+.paginator {
+  display: flex;
+  align-content: center;
+  width: 100%; }
+
+.carousel .paginator > li {
+  margin-left: 2rem; }
+
+.timeline {
+  display: flex;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 1rem;
+  background-color: #333;
+  border-radius: .5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 18rem; }
+
+#first {
+  content: url("arrows/up.svg");
+  width: 22px;
+  height: 22px;
+  margin: auto; }
+
+#last {
+  content: url("arrows/down.svg");
+  width: 22px;
+  height: 22px;
+  margin: auto; }
+
+@media only screen and (min-width: 176px) and (max-width: 600px) {
+  .timeline {
+    flex-wrap: wrap;
+    height: 20rem; }
+  .swiper {
+    width: 100%;
+    border-left-style: none; }
+  .swiper > ul > li {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    vertical-align: middle; }
+  .carousel {
+    width: 100%; }
+  .carousel > ul {
+    margin-left: 0px;
+    padding-left: .7rem; }
+  #first {
+    content: url("arrows/left.svg");
+    width: 22px;
+    height: 22px; }
+  #last {
+    content: url("arrows/right.svg");
+    width: 22px;
+    height: 22px; }
+  p.form {
+    padding-left: 1rem; }
+  form {
+    margin-left: 2rem; } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */

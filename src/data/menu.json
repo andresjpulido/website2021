@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "label": "Home",
+        "isActive": true,
+        "icon": "home",
+        "ref": "#home"
+    },
+    {
+        "id": 2,
+        "label": "About",
+        "isActive": false,
+        "icon": "user-circle",
+        "ref": "#about"
+    },
+    {
+        "id": 3,
+        "label": "Experience",
+        "isActive": false,
+        "icon": "globe",
+        "ref": "#experience"
+    },
+    {
+        "id": 4,
+        "label": "My Work",
+        "isActive": false,
+        "icon": "sd-card",
+        "ref": "#mywork"
+    },
+    {
+        "id": 5,
+        "label": "Contact",
+        "isActive": false,
+        "icon": "address-book",
+        "ref": "#contact"
+    }
+]

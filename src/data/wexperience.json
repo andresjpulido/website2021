@@ -1,0 +1,157 @@
+[
+    {
+        "name": "Shop",
+        "description": "web aplicacion Inventory Developed a minimum viable product to manage inventory, create and submit orders, generate payslips, and keep record of working hours.",
+        "company": "Oro Negro",
+        "technologies": [
+            "Reactjs","Redux", "Bootstrap", "nodejs", "axios", "heroku"
+        ],
+        "year": 2021
+    },
+    {
+        "name": "self-acquisition of banking products system",
+        "description": "self-acquisition of banking products system",
+        "company": "IBM",
+        "technologies": [
+            "Reactjs",
+            "Java"
+        ],
+        "year": 2021
+    },
+    {
+        "name": "Integrated Production System of Printers",
+        "description": "Integrated Production System of Printers",
+        "company": "company",
+        "technologies": [
+            "Reactjs",
+            "nodejs"
+        ],
+        "year": 2020
+    },
+    {
+        "name": "Support and maintenance of Banco Davivienda customer portal ",
+        "description": "Support and maintenance of Banco Davivienda customer portal",
+        "company": "company",
+        "technologies": [
+            "nodejs",
+            "Reactjs"
+        ],
+        "year": 2019
+    },
+    {
+        "name": "Administration of commissions for commercial advisers",
+        "description": "Web application of intranet for managing commissions for commercial advisers.",
+        "company": "",
+        "technologies": [
+            "JSF", "Java", "Javascript", "Sybase", "EJB"
+        ],
+        "year": 2019
+    },
+    {
+        "name": "portal in the Fondo Nacional del Ahorro (FNA)",
+        "description": " portal in the Fondo Nacional del Ahorro (FNA)",
+        "company": "company",
+        "technologies": [
+            "Java",
+            "EJB", "Web Services", "Sybase", "SQLServer"
+        ],
+        "year": 2019
+    },
+
+    {
+        "name": "publication of financial information",
+        "description": "publication of financial information",
+        "company": "IBM",
+        "technologies": [
+            "WebSphere Application Server",
+            "Java", "Silverpop", "Velocity"
+        ],
+        "year": 2017
+    },
+    {
+        "name": "Document Management System",
+        "description": "Document Management System for Agrario Bank",
+        "company": "IBM",
+        "technologies": [
+            "C#",
+            "IIS", "Reports"
+        ],
+        "year": 2016
+    },
+    {
+        "name": "Document Management System",
+        "description": "Document Management System for Agrario Bank",
+        "company": "IBM",
+        "technologies": [
+            "C#",
+            "IIS", "Reports"
+        ],
+        "year": 2015
+    },    
+    {
+        "name": "Document Management System",
+        "description": "Document Management System for Agrario Bank",
+        "company": "IBM",
+        "technologies": [
+            "C#",
+            "IIS", "Reports"
+        ],
+        "year": 2014
+    },    
+    {
+        "name": "Document Management System",
+        "description": "Document Management System for Agrario Bank",
+        "company": "IBM",
+        "technologies": [
+            "C#",
+            "IIS", "Reports"
+        ],
+        "year": 2013
+    },    
+    {
+        "name": "Document Management System",
+        "description": "Document Management System for Agrario Bank",
+        "company": "IBM",
+        "technologies": [
+            "C#",
+            "IIS", "Reports"
+        ],
+        "year": 2012
+    },    
+    {
+        "name": "PQyR",
+        "description": "Administration of requests, complaints and claims",
+        "company": "e&s soluciones empresariales",
+        "technologies": [
+            "JSF", "Java", "Jasper Report", "", ""
+        ],
+        "year": 2011
+    },    
+    {
+        "name": "Infrastructure of spatial data of the Capital District",
+        "description": "Infrastructure of spatial data of the Capital District",
+        "company": "",
+        "technologies": [
+            "Javascript", "Mapserver", "JSF", "eXo Platform Portal"
+        ],
+        "year": 2009
+    },
+    {
+        "name": "Air Force Meteorological Information System",
+        "description": "Air Force Meteorological Information System",
+        "company": "",
+        "technologies": [
+            "Javascript", "Mapserver", "Jasper Reports", "eXo Platform Portal"
+        ],
+        "year": 2008
+    },
+    {
+        "name": "Geographic Information System of the Intelligence and Joint Operations Center",
+        "description": "Geographic Information System of the Intelligence and Joint Operations Center",
+        "company": "Genome IT",
+        "technologies": [
+            "Javascript", "Mapserver", "", "", ""
+        ],
+        "year": 2007
+    }
+]

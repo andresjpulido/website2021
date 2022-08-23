@@ -1,0 +1,58 @@
+@import '../../styles/variables.scss';
+
+section#experience {
+    background-color: $dark;
+    height: 100vh;
+}
+
+section#experience > div > p:first-of-type {
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+section#experience > div > h2 {
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 600px) {
+    section#experience > div > p:first-of-type {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    section#experience {
+        height: 100%;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+}

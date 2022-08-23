@@ -1,0 +1,165 @@
+@import '../../styles/variables.scss';
+
+section#contact {
+}
+
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-column-form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    flex-grow: 2.5;
+}
+
+.contact-response {
+    color: $secundary;
+    display: flex;
+    align-items: baseline;
+    p {
+        margin-left: 1rem;
+    }
+}
+
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.contact-channels {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.contact-channel {
+    /*
+
+	border-radius: 0.3rem;
+	text-align: right;
+	margin: 0.5rem;
+	font-size: 3rem;
+	padding-right: 0.5rem;
+*/
+
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 3.5rem;
+}
+
+.contact-channel-icon {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.contact-channel-icon a {
+    color: $primary;
+}
+
+.contact-channel-icon:first-child:hover {
+    a {
+        color: $superlight;
+    }
+    background-color: $primary;
+}
+
+.contact-channel-text {
+    text-align: left;
+    margin: auto 0.5rem;
+    padding-left: 0.5rem;
+    line-height: initial;
+
+    a {
+        color: $secundary;
+    }
+}
+
+.contact-channel-text:hover {
+    a {
+        color: $primary;
+    }
+}
+
+.contact-page {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+form {
+    padding-bottom: 4rem;
+}
+
+p.form {
+    padding-left: 2rem;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+@supports (object-fit: cover) {
+    .box img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.disable {
+    display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .contact-page {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .contact-column-form {
+        flex: 100%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .contact-column-form {
+        flex: 100%;
+    }
+
+    .contact-channels {
+        margin-left: 4rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+}
